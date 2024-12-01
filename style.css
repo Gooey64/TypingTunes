@@ -1,37 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap);
+
 /* General styles */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Ubuntu", sans-serif;
     color: #333;
   }
   
-  header {
+header {
     background-color: #2B4753;
     color: #D0894B;
     padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 18px;
   }
   
-  header h1 {
+header h1 {
     margin: 0;
     font-size: 24px;
+    font-family: "Red Hat Display";
   }
   
-  header nav a {
+header a {
     color: #D0894B;
     text-decoration: none;
     font-weight: bold;
   }
+
+footer a {
+    color: #D0894B;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+.history {
+    padding-left: 30px;
+}
+
+.rankings {
+    padding-right: 30px;
+}
   
-  main {
+main {
     padding: 20px;
     display: flex;
     justify-content: center;
   }
   
-  .song-list {
+.song-list {
     width: 80%;
     background-color: #f8f8f8;
     border-radius: 10px;
@@ -39,27 +58,30 @@ body {
     padding: 20px;
   }
   
-  .song-header {
+.song-header {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
     margin-bottom: 15px;
   }
   
-  .song-content p {
+.song-content p {
     line-height: 1.8;
     margin: 0;
   }
   
-  footer {
+footer {
     background-color: #2B4753;
     color: #D0894B;
-    text-align: center;
     padding: 15px;
-    margin-top: 20px;
-  }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
   
-  footer p {
+footer p {
     margin: 5px 0;
   }
   
