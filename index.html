@@ -86,6 +86,7 @@
     const handleData = (json) => {
       if(!json["lyrics"]) {
         document.getElementById("song-content").innerHTML = "Song could not be found!";
+        document.getElementById("song-display").innerHTML = "Song will be displayed here.";
         return;
       }
 
