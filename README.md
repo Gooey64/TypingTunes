@@ -29,3 +29,16 @@ Web Programming final project
    ```
 
 3. Start up the typing!
+
+## Database info
+
+We use one table to store the data:
+
+|  Column  | Data type  |           Notes           |
+|----------|------------|---------------------------|
+| id       | int        | auto-increment            |
+| username | string(10) | default: "Guest"          |
+| artist   | string(40) | default: "Unknown artist" |
+| title    | string(40) | default: "Unknown song"   |
+| wpm      | int        |                           |
+| accuracy | decimal    |                           |
